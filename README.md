@@ -27,11 +27,6 @@ pip install torch transformers datasets scikit-learn matplotlib seaborn
 Usage
 Clone the Repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/your-repository-name.git
-cd your-repository-name
-Prepare the Data and Model:
 
 The script will automatically download the IMDB dataset and initialize the BERT model. If you want to use a different dataset or model, you can modify the load_and_prepare_dataset and initialize_model_and_tokenizer functions, respectively.
 
